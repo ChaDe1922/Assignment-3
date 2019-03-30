@@ -1,0 +1,11 @@
+function y = myNoiseGen(num_samples,w, noise_type)
+% Noise Generator
+% ~ generates dither noises with different pdfs: rectangular, triangular, and high-pass
+% filtered triangular.
+
+del = 1/(2^(w-1));
+r = rand(num_samples,1);
+t = 
+
+end
+
