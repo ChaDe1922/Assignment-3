@@ -1,11 +1,10 @@
 function y = myQuantize(x,w)
 %Simple Quantizer
 %   Quantize input 'x' using word-length 'w'
-q = 2^(w-1)-1;
+
+q = 2^(w-1)-1;                                      
 
 y = round(x*q)/q;
 y = y/max(abs(y))*(1-eps);
 
 end
-(bell, 
-%%
